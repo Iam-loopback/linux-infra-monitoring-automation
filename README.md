@@ -51,6 +51,8 @@ This project was created to:
 
 ## Architecture
 
+'''text
+
                Host Machine
                    |
             VMware Workstation
@@ -60,6 +62,7 @@ This project was created to:
    web-server               backup-server  
   192.168.231.128           192.168.231.129
 
+'''
 
 ---
 
