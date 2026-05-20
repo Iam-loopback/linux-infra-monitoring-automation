@@ -4,7 +4,7 @@
 # Linux Infrastructure Monitoring & Automation System
 
 
-## project overview
+## Project overview
 
 
 This project is a hands-on Linux infrastructure project designed to simulate a small server environment using two Fedora Linux virtual machines.
