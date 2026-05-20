@@ -51,13 +51,14 @@ This project was created to:
 
 ## Architecture
 
-           Host Machine
-                |
-                |
-        ------------------
-        |                |
-   web-server          backup-server  
-  192.168.231.128     192.168.231.129
+               Host Machine
+                   |
+            VMware Workstation
+                   |
+    -------------------------------
+    |                             |
+   web-server               backup-server  
+  192.168.231.128           192.168.231.129
 
 
 ---
