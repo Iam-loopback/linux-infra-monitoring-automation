@@ -1,37 +1,50 @@
-<<<<<<< HEAD
-# Linux-Infra-Monitoring-Automation
-=======
+<
+
+
 # Linux Infrastructure Monitoring & Automation System
->>>>>>> e4e0a03 (Update project documentation)
+
 
 ## project overview
 
 
-This project simulates a Linux administration environment using two Fedora Server virtual machines.
+This project is a hands-on Linux infrastructure project designed to simulate a small server environment using two Fedora Linux virtual machines.
 
 
-Servers:
+The environment consists of:
 
   - web-server
  
   - backup-server
 
-Main objectives:
+The purpose of this project is to build practical experience in Linux infrastructure management, service deployment, system monitoring, 
+automation, troubleshooting, and backup operations.
+
+Instead of practicing isolated commands, this project focuses on creating and managing a complete where multiple systems communicate and
+operate together.
 
 
-  - Configure Linux servers
+## Project Justification
+
+The goal of this project is to develop practical Linux infrastructure skills by building and managing a simulated server environment focused on
+monitoring, automation, and system management.
+
+This project was created to:
+
+  
+  - Understand Linux server deployment and management
+
+  - Practice SSH communication between systems
+
+  - Configure and manage  Apache web services
+
+  - Implement monitoring and Bash automation  scripts
+
+  - Automate administrative tasks using cron jobs
+
+  - Perform backup and recovery operations
  
-  - Configure SSH  access
- 
-  - Create static IPs
- 
-  - Host a web service
- 
-  - Automate monitoring
- 
-  - Manage users and permissions
- 
-  - Practice troubleshooting
+  - Strengthen troubleshooting and system management skills
+
 
 ---
 
