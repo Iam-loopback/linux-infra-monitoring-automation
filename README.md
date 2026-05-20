@@ -1,4 +1,4 @@
-<
+
 
 
 # Linux Infrastructure Monitoring & Automation System
@@ -245,7 +245,7 @@ Diagnosis:
 
 systemctl status httpd
 
-
+```
 
 Fix:
 
