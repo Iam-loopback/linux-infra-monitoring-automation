@@ -51,7 +51,7 @@ This project was created to:
 
 ## Architecture
 
-'''text
+```text
 
                Host Machine
                    |
@@ -62,7 +62,7 @@ This project was created to:
    web-server               backup-server  
   192.168.231.128           192.168.231.129
 
-'''
+```
 
 ---
 
@@ -93,23 +93,23 @@ service:
 
 Commands:
   
-'''bash
+```bash
 
 sudo dnf install httpd -y
 sudo systemctl enable --now httpd
 
-'''
+```
 
 ### SSH
 
 Service:
 
 
-'''bash
+```bash
 
 sudo systemctl enable --now sshd
 
-'''
+```
 
 ## Monitoring Scripts
 
@@ -129,11 +129,11 @@ Purpose:
   
 Run:
 
-'''bash
+```bash
  
 ./system_monitor.sh
 
-'''
+```
 
 ---
 
@@ -153,11 +153,11 @@ Purpose:
 
 Run:
 
-'''bash
+```bash
 
 ./server_dashboard.sh
 
-'''
+```
 
 ---
 
@@ -171,27 +171,27 @@ Purpose:
 
 Creates compressed backups of:
 
-'''text
+```text
 
 /var/www/html
 
-'''
+```
 
 Run:
 
-'''bash
+```bash
 
 ./backup_web.sh
 
-'''
+```
 
 Backup location:
 
-'''text
+```text
 
 /backups/apache
 
-'''
+```
 
 ---
 
@@ -201,19 +201,19 @@ Backup location:
 
 Monitoring:
 
-'''bash
+```bash
 
 0 * * * * /home/sasi/scripts/system_monitor.sh >> /home/sasi/logs/health.log
 
-''''
+```
 
 Backup:
 
-'''bash
+```bash
 
 0 2 * * * /home/sasi/scripts/backup_web.sh >> /home/sasi/logs/backup.log
 
-''''
+```
 
 ## User Management
 
@@ -241,37 +241,38 @@ Groups:
 
 Diagnosis:
 
-'''bash
+```bash
 
 systemctl status httpd
 
-'''
+
 
 Fix:
 
-'''bash
+
+```bash
 
 sudo systemctl start httpd
 
-'''
+```
 
 2. Incorrect permissions on the webpage
 
 Diagnosis:
 
-'''bash
+```bash
 
 tail -f /var/log/httpd/error_log
 
-'''
+```
 
 Fix:
 
-'''bash
+```bash
 
 sudo chmod 644 /var/www/html/index.html
 
-'''
+```
 
 ---
 
