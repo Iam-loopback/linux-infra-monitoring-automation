@@ -52,7 +52,6 @@ This project was created to:
 
 
 
-
 ![Project Architecture](images/architecture.png)
 
 
@@ -92,6 +91,11 @@ sudo dnf install httpd -y
 sudo systemctl enable --now httpd
 
 ```
+## Apache Web Server
+
+
+![Apache Web Server](images/apache-page.png)
+
 
 ### SSH
 
@@ -103,6 +107,10 @@ Service:
 sudo systemctl enable --now sshd
 
 ```
+## SSH Commnunication
+
+![SSH communication](images/ssh-connection.png)
+
 
 ## Monitoring Scripts
 
@@ -130,6 +138,10 @@ Run:
 ./system_monitor.sh
 
 ```
+
+## Monitoring Script Output
+
+![Monitoring Script](images/monitoring-script.png)
 
 ---
 
@@ -188,6 +200,11 @@ Backup location:
 /backups/apache
 
 ```
+
+## Backup Automation
+
+![backup Automation](images/backup-output.png)
+
 
 ---
 
