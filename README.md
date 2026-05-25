@@ -3,6 +3,7 @@
 
 # Linux Infrastructure Monitoring & Automation System
 
+![Project Architecture](images/arechitecture.png)
 
 ## Project overview
 
@@ -53,14 +54,9 @@ This project was created to:
 
 ```text
 
-               Host Machine
-                   |
-            VMware Workstation
-                   |
-    -------------------------------
-    |                             |
-   web-server               backup-server  
-  192.168.231.128           192.168.231.129
+
+![Project Architecture](images/arechitecture.png)
+
 
 ```
 
@@ -86,6 +82,7 @@ This project was created to:
 ## Installed Services
 
 ### Web Server
+
 
 service:
 
@@ -113,7 +110,10 @@ sudo systemctl enable --now sshd
 
 ## Monitoring Scripts
 
+
+
 ### system_monitor.sh
+
 
 Purpose:
 
