@@ -52,13 +52,11 @@ This project was created to:
 
 ## Architecture
 
-```text
+
 
 
 ![Project Architecture](images/arechitecture.png)
 
-
-```
 
 ---
 
