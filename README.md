@@ -3,8 +3,6 @@
 
 # Linux Infrastructure Monitoring & Automation System
 
-![Project Architecture](images/arechitecture.png)
-
 ## Project overview
 
 
@@ -55,7 +53,7 @@ This project was created to:
 
 
 
-![Project Architecture](images/arechitecture.png)
+![Project Architecture](images/architecture.png)
 
 
 ---
