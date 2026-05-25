@@ -167,6 +167,12 @@ Run:
 
 ```
 
+## Server Dashboard
+
+
+![Server Dashboard](images/server-dashboard.png)
+
+
 ---
 
 
@@ -226,7 +232,16 @@ Backup:
 
 0 2 * * * /home/sasi/scripts/backup_web.sh >> /home/sasi/logs/backup.log
 
+
 ```
+## Cron Jobs
+
+
+![Cron Jobs](images/cornjob.png)
+
+
+---
+
 
 ## User Management
 
