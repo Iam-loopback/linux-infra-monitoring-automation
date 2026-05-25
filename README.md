@@ -237,7 +237,7 @@ Backup:
 ## Cron Jobs
 
 
-![Cron Jobs](images/cornjob.png)
+![Cron Jobs](images/cronjob.png)
 
 
 ---
